@@ -11,8 +11,11 @@
   </head>
   <body>
     <div id="root">
+      <h1>TO DO LIST</h1>
 
       <!-- - aggiungere un campo di input e un pulsante per aggiungere nuove cose da fare alla lista; -->
+      <!-- Bonus:
+      - Oltre al click sul pulsante, consentire l'inserimento del nuovo item anche premendo il tasto Invio della tastiera, dopo aver scritto il testo nel campo di input. -->
 
       <input v-model="userInput" type="text" v-on:keyup.13="addtodo">
 
@@ -25,7 +28,6 @@
           {{ todo }} <span @click="removeTodo">{{x}}</span>
         </li>
       </ul>
-
 
     </div>
 

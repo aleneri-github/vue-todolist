@@ -6,6 +6,14 @@
   font-family: 'Nerko One', cursive;
 }
 
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-bottom: 25px;
+}
+
 #root {
   height: 100vh;
   padding: 40px;
@@ -14,4 +22,10 @@
 
 ul {
   text-align: left;
+}
+
+span {
+  font-size: 35px;
+  color: red;
+  cursor: pointer;
 }
