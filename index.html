@@ -14,11 +14,11 @@
 
       <!-- - aggiungere un campo di input e un pulsante per aggiungere nuove cose da fare alla lista; -->
 
-      <input type="text" name="" value="">
+      <input v-model="userInput" type="text" name="" value="">
 
-      <button @click="addtodo" type="button" name="button">Aggiungi</button>
-
-
+      <button @click="addtodo"  type="button"
+        name="button">Aggiungi
+      </button>
 
       <ul>
         <li v-for="todo in todolist">
