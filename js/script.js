@@ -15,8 +15,12 @@ x: "x"
 methods: {
   addtodo: function() {
     const input = this.userInput;
-    this.todolist.push(input);
-    this.userInput = "";
+    if (input == "") {
+      alert('Inserisci una cosa da fare');
+    } else {
+      this.todolist.push(input);
+      this.userInput = "";
+    }
     },
 }
 })
