@@ -1,6 +1,6 @@
 var root = new Vue({
 el: '#root',
 data: {
-message: 'Comprare il pane'
+message: "TO DO LIST"
 }
 })
