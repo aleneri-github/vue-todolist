@@ -24,8 +24,8 @@
       </button>
 
       <ul>
-        <li v-for="todo in todolist">
-          {{ todo }} <span @click="removeTodo">{{x}}</span>
+        <li v-for="(todo, index) in todolist">
+          {{ todo }} <span @click="removeTodo(index)">{{x}}</span>
         </li>
       </ul>
 

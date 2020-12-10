@@ -24,9 +24,8 @@ methods: {
     },
 
     // - cancellare un item dalla lista, al click sulla relativa icona 'X'.
-    removeTodo: function (todo) {
-    var index = this.todolist.indexOf(todo)
-    this.todolist.splice(index, 1)
+    removeTodo: function (index) {
+      this.todolist.splice(index, 1)
   }
 }
 })
