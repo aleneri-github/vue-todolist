@@ -9,7 +9,11 @@ todolist: [
   "Caricare il telefono",
   "Dare la pappa a Chicco"
 ]
+},
+methods: {
+  addtodo: function() {
+    console.log('click');
 
-
+    },
 }
 })
