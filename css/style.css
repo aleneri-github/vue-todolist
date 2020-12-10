@@ -12,12 +12,15 @@ h1 {
   color: white;
   text-shadow: 3px 3px black;
   margin-bottom: 25px;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
 
 #root {
   height: 100vh;
-  padding: 40px;
-  background-color: lightblue;
+  padding: 10px 20px 20px 150px;
+  background-image: url('https://previews.123rf.com/images/peshkova/peshkova1608/peshkova160800210/60743347-vista-dall-alto-del-desktop-ufficio-in-legno-chiaro-con-smartphone-e-tablet-due-tazze-di-caff%C3%A8-fagi.jpg');
+  background-size: cover;
 }
 
 ul {
