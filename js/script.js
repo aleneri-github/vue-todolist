@@ -8,7 +8,8 @@ todolist: [
   "Preparare la cena",
   "Caricare il telefono",
   "Dare la pappa a Chicco"
-]
+],
+x: "x"
 },
 methods: {
   addtodo: function() {
