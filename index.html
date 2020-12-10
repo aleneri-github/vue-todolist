@@ -22,7 +22,7 @@
 
       <ul>
         <li v-for="todo in todolist">
-          {{ todo }} {{x}}
+          {{ todo }} <span @click="removeTodo">{{x}}</span>
         </li>
       </ul>
 

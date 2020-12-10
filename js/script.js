@@ -22,5 +22,10 @@ methods: {
       this.userInput = "";
     }
     },
+
+    removeTodo: function (todo) {
+    var index = this.todolist.indexOf(todo)
+    this.todolist.splice(index, 1)
+  }
 }
 })
